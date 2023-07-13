@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "dtimporter"
+version = "0.1.0"
+description = ""
+authors = ["Samuel Imboden <imboden.samuel@protonmail.ch>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jsonpickle = "^3.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
